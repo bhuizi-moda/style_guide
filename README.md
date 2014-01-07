@@ -1,37 +1,38 @@
+
+gumby + jade + gulp
+========================
+Creating a seed project that uses either a grunt.js file or gulp.js for running different tasks.
+
+* master branch => gruntfile.js
+* gulp => gulp.js (no server task)
+
+Additional resources
+--------------------
+
+npm plugins without a gulp counterpart
+* [tiny-lr](https://npmjs.org/package/tiny-lr)
+* [connect](https://npmjs.org/package/connect)
+* A note about connect it was require on windows 7, because gulp-open doesn't allow the developer to specify a port number.
+
+gulp plugin
+* [gulp-livereload](https://github.com/vohof/gulp-livereload)
+* [gulp-open](https://github.com/stevelacy/gulp-open)
+* [gulp-compass](https://github.com/appleboy/gulp-compass)
+* [gulp-jade](https://github.com/phated/gulp-jade)
+
+<pre>
+	<code>
+		gulp install <%= plugin name || names %> --save-dev
+	</code>
+</pre>
+
+Helpful Posts and Discussions
+------------------------------
+* [travis](http://travismaynard.com/writing/getting-started-with-gulp)
+* [haste](http://robo.ghost.io/getting-started-with-gulp-2/)
+* [gulp server issue discussion](https://github.com/stevelacy/gulp-open/issues/2)
+
+
+
 Gumby Framework [![Build Status](https://travis-ci.org/GumbyFramework/Gumby.png?branch=master)](https://travis-ci.org/GumbyFramework/Gumby)
-=====================
-
-Gumby Framework is a flexible, responsive CSS Framework, Powered by SASS. Create rapid and logical page layout and app
-prototypes with a flexible and responsive grid system and UI kit.
-
-Full documentation can be found at [http://gumbyframework.com](http://gumbyframework.com/docs).
-
-More information can be found in the [Wiki](https://github.com/GumbyFramework/Gumby/wiki).
-
-Our [Google Plus Community](https://plus.google.com/u/0/communities/108760896951473344451) is rapidly growing, we recommend heading over there with any questions you may have or to geek out and discuss the framework and rwd in general.
-
-Gumby is developed with love by your friends at [Digital Surgeons](http://www.digitalsurgeons.com).
-
-Gumby has a few dependencies. Big thank you to the innovative geniuses behind these awesome technologies.
-
-- [Sass](https://github.com/nex3/sass) - Nathan Weizenbaum
-- [Compass](https://github.com/chriseppstein/compass) - Chris Eppstein
-- [Modular Scale](https://github.com/Team-Sass/modular-scale) - Scott Kellum
-- [FitText](http://fittextjs.com/) - Paravel
-- [jQuery](http://jquery.com/)
-- [Modernizr](http://modernizr.com/)
-
-**MIT Open Source License**
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
-persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
-Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-----------
