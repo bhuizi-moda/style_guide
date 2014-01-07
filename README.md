@@ -22,7 +22,7 @@ gulp plugin
 
 <pre>
 	<code>
-		gulp install <%= plugin name || names %> --save-dev
+		gulp install plugin name || names  --save-dev
 	</code>
 </pre>
 
