@@ -48,63 +48,259 @@ html.no-js(lang='en', itemscope='itemscope', itemtype='http://schema.org/Product
           a(href="#")
             img(src="/img/gumby_mainlogo.png", gumby-retina)
 
-        ul(class="eight columns")
-          li
-            a(href="#").
-              Features
-          li
-            a(href="#").
-              Documentation
-            div(class="dropdown")
-              ul
-                li
-                  a(href="#").
-                    the grid
-                li
-                  a(href="#").
-                    ui kit
-                li
-                  a(href="#").
-                    sass
-                li
-                  a(href="#").
-                    javascript
-          li
-            a(href="#").
-              Customize
-
-
+        //- ul(class="eight columns")
+        //-   li
+        //-     a(href="#").
+        //-       Features
+        //-   li
+        //-     a(href="#").
+        //-       Documentation
+        //-     div(class="dropdown")
+        //-       ul
+        //-         li
+        //-           a(href="#").
+        //-             the grid
+        //-         li
+        //-           a(href="#").
+        //-             ui kit
+        //-         li
+        //-           a(href="#").
+        //-             sass
+        //-         li
+        //-           a(href="#").
+        //-             javascript
+        //-   li
+        //-     a(href="#").
+        //-       One two three
 
     section(class="row")
-      div(class="twelve columns")
-        h1.
-          get started
-        hr
-        p.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      section(class="two columns")
+        nav(gumby-fixed="top")
+          h4
+            a(href="#test-link" gumby-goto="[data-target='test-link']")
+              |layout
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |four
+            li
+              |five
 
-    // Grab Google CDN's jQuery, fall back to local if offline
-    // 2.0 for modern browsers, 1.10 for .oldie
+          h4
+            |components
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |four
+
+          h4
+            |user interface
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |four
+
+          h4
+            a(href="#dev", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='dev']")
+              |development
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |four
+
+
+
+      section(class="nine columns push_one")
+        h4(data-target="test-link")
+          |layout
+        hr
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                | test
+
+        h4
+          |components
+        hr
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+        h4
+          |user interface
+        hr
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+        h4(data-target="dev")
+          |development
+        hr
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p
+                |test
+
+
+      //- #modal1.modal
+      //-   .content
+      //-     a.close.switch(gumby-trigger='|#modal1')
+      //-       i.icon-cancel
+      //-     .row
+      //-       .ten.columns.centered.text-center
+      //-         h2 This is a modal.
+      //-         p Gumby modals are easy to make using Toggles & Switches.
+      //-         p.btn.primary.medium
+      //-           a.switch(href='#', gumby-trigger='|#modal1') Close Modal
+      //- p.btn.primary.medium
+      //-   a.switch(href='#', gumby-trigger='#modal1') Open Modal
+
+
+
+
+
+
+
+    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
     script.
-      var oldieCheck = Boolean(document.getElementsByTagName('html')[0].className.match(/\\soldie\s/g));
-      if(!oldieCheck) {
-      document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"><\\/script>');
-      } else {
-      document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"><\\/script>');
-      }
-    script.
-      if(!window.jQuery) {
-      if(!oldieCheck) {
-      document.write('<script src="js/libs/jquery-2.0.2.min.js"><\\/script>');
-      } else {
-      document.write('<script src="js/libs/jquery-1.10.1.min.js"><\\/script>');
-      }
-      }
+      window.jQuery || document.write('<script src="js/libs/jquery-1.10.2.min.js"><\/script>')</script>
     //
         Include gumby.js followed by UI modules followed by gumby.init.js
         Or concatenate and minify into a single file 
@@ -137,21 +333,20 @@ html.no-js(lang='en', itemscope='itemscope', itemtype='http://schema.org/Product
         else if (window.attachEvent)
         window.attachEvent("onload", downloadJSAtOnload);
         else window.onload = downloadJSAtOnload;
-        </script> 
     script(src='js/plugins.js')
     script(src='js/main.js')
     // Change UA-XXXXX-X to be your site's ID
     //
-      <script>
+      script.
         window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
         Modernizr.load({
           load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
         });
-        </script>
+        
     //
        Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
            chromium.org/developers/how-tos/chrome-frame-getting-started 
     //if lt IE 7 
       script(src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
-      script
+      script.
         window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
