@@ -2878,7 +2878,23 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\000034}}
+.webkit-zero, .example-grid .example-grid-fancytiles { -webkit-margin-before: 0; -webkit-margin-after: 0; -webkit-margin-end: 0; -webkit-padding-start: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000310}}
 .nopad { margin: 0; padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000315}}
 .box { background: #333; border: 1px solid #333; border-radius: 3px; min-height: 200px; margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000321}}
+.box .box-p { padding-left: 0.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000327}}
+.example-grid .example-grid-child-styles { background: #4a4d50; border-radius: 3px; color: white; margin-bottom: 0.3em; text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000334}}
+.example-grid .example-grid-fancytiles { display: inline-block; float: left; padding-left: 0.87719%; padding-right: 0.87719%; width: 100%; }
+@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000334}}
+  .example-grid .example-grid-fancytiles { width: 100%; } }
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000334}}
+  .example-grid .example-grid-fancytiles { width: 50%; } }
+@media only screen and (min-width: 1140px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000334}}
+  .example-grid .example-grid-fancytiles { width: 25%; } }

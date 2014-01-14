@@ -31,6 +31,7 @@ grunt.initConfig({
 			},
 			files: [
 				'index.html',
+				'container.html',
 				'css/*.css'
 			]
 		}

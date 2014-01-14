@@ -1,6 +1,12 @@
 // Your custom SCSS should be written here...
-
-
+$primary_gray: #4a4d50;
+$standard_white: #fff;
+.webkit-zero {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-end: 0;
+	-webkit-padding-start: 0;
+}
 .nopad {
 	margin: 0;
 	padding: 0;
@@ -12,4 +18,21 @@
 	border-radius: 3px;
 	min-height: 200px;
 	margin-bottom: 1em;
+	.box-p {
+		padding-left: 0.6em;
+	}
+}
+
+.example-grid {
+	.example-grid-child-styles{
+		background: $primary_gray;
+		border-radius: 3px;
+		color: $standard-white;
+		margin-bottom: 0.3em;
+		text-align: center;
+	}
+	.example-grid-fancytiles {
+		@include fancytiles(4, 2, 1);
+		@extend .webkit-zero;
+	}
 }

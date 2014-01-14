@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/-->
-<!--if lt IE 7html.no-js.ie6.oldie(lang='en')  
--->
-<!--if IE 7html.no-js.ie7.oldie(lang='en')  
--->
-<!--if IE 8html.no-js.ie8.oldie(lang='en')  
--->
-<!--if IE 9html.no-js.ie9(lang='en')  
--->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline-->
-<!-- [if gt IE 9] <!-->
-<html lang="en" itemscope="itemscope" itemtype="http://schema.org/Product" class="no-js">
-  <!-- <![endif]-->
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
   <head>
     <meta charset="utf-8">
     <!--
@@ -51,7 +42,7 @@
     <section class="row">
       <section class="two columns">
         <nav gumby-fixed="top">
-          <h4><a href="#test-link" gumby-goto="[data-target='test-link']">layout</a></h4>
+          <h4><a href="#layout" gumby-update="" gumby-duration="600" gumby-goto="[data-target='layout']" class="skip">layout</a></h4>
           <hr>
           <ul>
             <li>one</li>
@@ -60,7 +51,7 @@
             <li>four</li>
             <li>five</li>
           </ul>
-          <h4>components</h4>
+          <h4><a href="#comp" gumby-update="" gumby-duration="600" gumby-goto="[data-target='comp']" class="skip">components</a></h4>
           <hr>
           <ul>
             <li>one</li>
@@ -68,7 +59,7 @@
             <li>three</li>
             <li>four</li>
           </ul>
-          <h4>user interface</h4>
+          <h4><a href="#ui" gumby-update="" gumby-duration="600" gumby-goto="[data-target='ui']" class="skip">user interface</a></h4>
           <hr>
           <ul>
             <li>one</li>
@@ -87,61 +78,61 @@
         </nav>
       </section>
       <section class="nine columns push_one">
-        <h4 data-target="test-link">layout</h4>
+        <h4 data-target="layout">layout</h4>
         <hr>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
-        <h4>components</h4>
+        <h4 data-target="comp">components</h4>
         <hr>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
-        <h4>user interface</h4>
+        <h4 data-target="ui">user interface</h4>
         <hr>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
         <h4 data-target="dev">development</h4>
         <hr>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
         <div class="row">
           <div class="twelve columns"><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
-              <p>test</p></a></div>
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a><a href="#" class="four columns box"><img src="http://placehold.it/350x200">
+              <p class="box-p">test</p></a></div>
         </div>
       </section>
     </section>
