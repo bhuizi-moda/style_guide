@@ -1,6 +1,11 @@
 // Your custom SCSS should be written here...
 $primary_gray: #4a4d50;
 $standard_white: #fff;
+
+.nav-header-title{
+	color: $standard_white;
+	text-align:right;
+}
 .webkit-zero {
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;

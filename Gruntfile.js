@@ -14,7 +14,7 @@ grunt.initConfig({
 			tasks: ['compass:server']
 		},
 		jade: {
-			files: ['{,*/}*.jade'],
+			files: ['{,*/}*.jade', 'partials/*.jade'],
 			tasks: ['jade']
 		},
 		js: {
@@ -31,7 +31,7 @@ grunt.initConfig({
 			},
 			files: [
 				'index.html',
-				'container.html',
+				'/partials/*.html',
 				'css/*.css'
 			]
 		}
@@ -69,7 +69,7 @@ grunt.initConfig({
 			},
 			files: [{
 				expand: true,
-				src: '{,*/}*.jade',
+				src: ['{,*/}*.jade', '/partials/*.jade'],
 				ext: '.html'
 			}]
 		}
