@@ -1,7 +1,7 @@
 
 gumby + jade + yeoman
 ========================
-A style guid project that follows the format displayed here: [MBA.StyleGuide](https://github.com/bhuizi-moda/style_guide.git)
+A style guide project that follows the format displayed here: [MBA.StyleGuide](http://styleguide.joshfry.me/index.html)
 
 
 Additional resources
