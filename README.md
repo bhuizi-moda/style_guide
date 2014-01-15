@@ -8,7 +8,7 @@ Additional resources
 --------------------
 
 
-* [yeoman.io](https://npmjs.org/package/tiny-lr)
+* [yeoman.io](http://yeoman.io/)
 * [grunt.js](http://gruntjs.com/)
 * [jade](http://jade-lang.com/)
 * [html2jade.org](http://html2jade.org/)
