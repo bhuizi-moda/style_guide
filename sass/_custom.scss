@@ -41,3 +41,27 @@ $standard_white: #fff;
 		@extend .webkit-zero;
 	}
 }
+
+.icons-tiles li {
+  display: inline-block;
+  float: left;
+  padding-left: 0.90909%;
+  padding-right: 0.90909%;
+  width: 10%;
+  height: 30px;
+}
+@media only screen and (min-width: 0px) {
+  .icons_tiles li {
+    width: 25%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .icons_tiles li {
+    width: 14.28571%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .icons_tiles li {
+    width: 14.28571%;
+  }
+}

@@ -2901,3 +2901,13 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
   .example-grid .example-grid-fancytiles { width: 50%; } }
 @media only screen and (min-width: 1140px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000339}}
   .example-grid .example-grid-fancytiles { width: 25%; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000345}}
+.icons-tiles li { display: inline-block; float: left; padding-left: 0.90909%; padding-right: 0.90909%; width: 10%; height: 30px; }
+
+@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000354}}
+  .icons_tiles li { width: 25%; } }
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000359}}
+  .icons_tiles li { width: 14.28571%; } }
+@media only screen and (min-width: 1100px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000364}}
+  .icons_tiles li { width: 14.28571%; } }
