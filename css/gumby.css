@@ -2878,36 +2878,39 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .ie9 .radio.checked i, .ie9 .checkbox.checked i { top: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\000035}}
-.nav-header-title { color: white; text-align: right; }
+.disabled { -webkit-filter: opacity(0.8); }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\000039}}
+.nav-header-title { color: white; text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000313}}
 .webkit-zero, .example-grid .example-grid-fancytiles { -webkit-margin-before: 0; -webkit-margin-after: 0; -webkit-margin-end: 0; -webkit-padding-start: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000319}}
 .nopad { margin: 0; padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000324}}
 .box { background: #333; border: 1px solid #333; border-radius: 3px; min-height: 200px; margin-bottom: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000330}}
 .box .box-p { padding-left: 0.6em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000336}}
 .example-grid .example-grid-child-styles { background: #4a4d50; border-radius: 3px; color: white; margin-bottom: 0.3em; text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000343}}
 .example-grid .example-grid-fancytiles { display: inline-block; float: left; padding-left: 0.87719%; padding-right: 0.87719%; width: 100%; }
-@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000339}}
+@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000343}}
   .example-grid .example-grid-fancytiles { width: 100%; } }
-@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000339}}
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000343}}
   .example-grid .example-grid-fancytiles { width: 50%; } }
-@media only screen and (min-width: 1140px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000339}}
+@media only screen and (min-width: 1140px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000343}}
   .example-grid .example-grid-fancytiles { width: 25%; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000349}}
 .icons-tiles li { display: inline-block; float: left; padding-left: 0.90909%; padding-right: 0.90909%; width: 10%; height: 30px; }
 
-@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000354}}
+@media only screen and (min-width: 0px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000358}}
   .icons_tiles li { width: 25%; } }
-@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000359}}
+@media only screen and (min-width: 768px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000363}}
   .icons_tiles li { width: 14.28571%; } }
-@media only screen and (min-width: 1100px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000364}}
+@media only screen and (min-width: 1100px) { @media -sass-debug-info{filename{font-family:file\:\/\/c\:\/apps_git\/gumby\/sass\/_custom\.scss}line{font-family:\0000368}}
   .icons_tiles li { width: 14.28571%; } }

@@ -2,6 +2,10 @@
 $primary_gray: #4a4d50;
 $standard_white: #fff;
 
+.disabled {
+  -webkit-filter: opacity(0.8);
+}
+
 .nav-header-title{
 	color: $standard_white;
 	text-align:right;
@@ -65,3 +69,5 @@ $standard_white: #fff;
     width: 14.28571%;
   }
 }
+
+
