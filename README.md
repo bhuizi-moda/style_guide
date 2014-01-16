@@ -1,14 +1,14 @@
 
 gumby + jade + yeoman
 ========================
-A style guid project that follows the format displayed here: [MBA.StyleGuide](https://github.com/bhuizi-moda/style_guide.git)
+A style guide project that follows the format displayed here: [MBA.StyleGuide](http://styleguide.joshfry.me/index.html)
 
 
 Additional resources
 --------------------
 
 
-* [yeoman.io](https://npmjs.org/package/tiny-lr)
+* [yeoman.io](http://yeoman.io/)
 * [grunt.js](http://gruntjs.com/)
 * [jade](http://jade-lang.com/)
 * [html2jade.org](http://html2jade.org/)
