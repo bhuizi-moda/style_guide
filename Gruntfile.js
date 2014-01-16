@@ -11,11 +11,11 @@ grunt.initConfig({
 	watch: {
 		compass: {
 			files: ['sass/{,*/}*.scss'],
-			tasks: ['compass:server']
+			tasks: ['compass:dist']
 		},
-		jade: {
-			files: ['{,*/}*.jade', 'partials/*.jade'],
-			tasks: ['jade']
+		haml: {
+			files: ['{,*/}*.haml', 'partials/*.haml'],
+			tasks: ['haml']
 		},
 		js: {
             files: ['Gruntfile.js', 'js/{,*/}*.js'],
@@ -31,7 +31,7 @@ grunt.initConfig({
 			},
 			files: [
 				'index.html',
-				'/partials/*.html',
+				'partials/*.html',
 				'css/*.css'
 			]
 		}
@@ -51,30 +51,22 @@ grunt.initConfig({
 	},
 
 	compass: {
-		options: {
-			sassDir: 'sass/',
-			cssDir: 'css/'
-		},
-		server: {
+		dist: {
 			options: {
-				debugInfo: true
+				sassDir: 'sass',
+				cssDir: 'css'
 			}
 		}
 	},
 
-	jade: {
+	haml: {
 		dist: {
-			options: {
-				pretty: true
-			},
-			files: [{
-				expand: true,
-				src: ['{,*/}*.jade', '/partials/*.jade'],
-				ext: '.html'
-			}]
+			files: {
+				'index.html': 'index.haml',
+				'partials/tabs.html': 'partials/tabs.haml'
+			}
 		}
 	},
-	
 	jshint: {
             options: {
                 jshintrc: '.jshintrc',
@@ -91,8 +83,8 @@ grunt.initConfig({
 
 grunt.registerTask('serve', function(target){
 	grunt.task.run([
-		'jade',
-		'compass:server',
+		'haml',
+		'compass:dist',
 		'connect:livereload',
 		'watch'
 
