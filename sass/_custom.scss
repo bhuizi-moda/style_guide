@@ -4,7 +4,9 @@
 $primary_gray: #4a4d50;
 $standard_white: #fff;
 
-
+.additional-length {
+	overflow: scroll;
+}
 .disabled {
   -webkit-filter: opacity(0.8);
 }
@@ -44,16 +46,16 @@ $standard_white: #fff;
 	&.modern-plum-light {
 		background: $modern_plum_light;
 	}
-	&.primary-button_plum {
+	&.primary-button-plum {
 		background: $primary_button_plum;
 	}
-	&.copyright-text_plum {
+	&.copyright-text-plum {
 		background: $copyright_text_plum;
 	}
-	&.inactive-button_plum {
+	&.inactive-button-plum {
 		background: $inactive_button_plum;
 	}
-	&.secondary-button_plum {
+	&.secondary-button-plum {
 		background: $secondary_button_plum;
 	}
 	&.warm-brown {
@@ -62,38 +64,59 @@ $standard_white: #fff;
 	&.menu-brown {
 		background: $menu_brown;
 	}
-	&.label-back-button {
+	&.label-back-button-brown {
 		background: $label_back_button_brown;
 	}
-	&.network-text {
+	&.network-text-brown {
 		background: $network_text_brown;
 	}
-	&.inactive-text {
+	&.inactive-text-brown {
 		background: $inactive_text_brown;
 	}
-	&.watermark-text {
+	&.watermark-text-brown {
 		background: $watermark_text_brown;
 	}
-	&.border-color {
+	&.border-color-brown {
 		background: $border_color_brown;
 	}
-	&.title-bar {
+	&.title-bar-brown {
 		background: $title_bar_brown;
 	}
-	&.link-row-01 {
+	&.link-row-01-brown {
 		background: $link_row_01_brown;
 	}
-	&.link-row-02 {
+	&.link-row-02-brown {
 		background: $link_row_02_brown;
 	}
-	&.inactive-secondary {
+	&.inactive-secondary-brown {
 		background: $inactive_secondary_brown;
 	}
-	&.page-background {
+	&.page-background-brown {
 		background: $page_background_brown;
 	}
-	&.back-button {
+	&.back-button-brown {
 		background: $back_button_brown;
+	}
+	&.modern-yellow {
+		background: $modern_yellow;
+	}
+	&.background-yellow {
+		background: $background_yellow;
+	}
+	&.alert-yellow {
+		background: $alert_yellow;
+	}
+	&.modern-aqua {
+		background: $modern_aqua;
+	}
+	&.teal {
+		background: $teal;
+	}
+	&.vertical-line-teal {
+		background: $vertical_line_teal
+	}
+	&.label-background-teal{
+		background: $label_background_teal;
 	}
 }
 

@@ -47,7 +47,7 @@ html
 
     section(class="row")
       section(class="two columns")
-        nav(gumby-fixed="top")
+        nav
           h4
             a(href="#plums", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='plums']")
               |plums
@@ -100,40 +100,30 @@ html
 
 
           h4
-            a(href="#comp", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='comp']")
-              |components
+            a(href="#yellows", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='yellows']")
+              |yellows
           hr
           ul
             li
-              |one
+              |modern yellow
             li
-              |two
+              |background yellow
             li
-              |three
-            li
-              |modal
-            li
-              |five
-            li
-              |six
+              |alert yellow
 
           h4
-            a(href="#ui", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='ui']")
-              |user interface
+            a(href="#aqua", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='aqua']")
+              |aqua | teal
           hr
           ul
             li
-              |buttons
+              |modern aqua
             li
-              |forms
+              |teal
             li
-              |icons
+              |vertical line
             li
-              |test
-            li
-              |tabs
-            li
-              |tables
+              |label background
 
           h4
             a(href="#dev", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='dev']")
@@ -310,41 +300,60 @@ html
             div(class="row")
               div(class="twelve columns")
                 div(class="three columns box")
-                  div(class="color warm-brown")
+                  div(class="color modern-yellow")
                   p(class="box-p")
-                    |warm brown
+                    |modern yellow
                     br
-                    |#493b31
+                    |#ffe92c
 
                 div(class="three columns box")
-                  div(class="color menu-brown")
+                  div(class="color background-yellow")
                   p(class="box-p")
-                    |menu brown
+                    |background yellow
                     br
-                    |#5c4f46 
+                    |#fded65 
 
                 div(class="three columns box")
-                  div(class="color label-back-button")
+                  div(class="color alert-yellow")
                   p(class="box-p")
-                    |back button
+                    |alert yellow
                     br
-                    |#716156
+                    |#fef9ce
 
-                div(class="three columns box")
-                  div(class="color network-text")
-                  p(class="box-p")
-                    |network text
-                    br
-                    |#80766f
-
+          div(class="row")
+            h4(data-target="aqua")
+              |aqua | teal
+            hr
+          section(class="row")
             div(class="row")
               div(class="twelve columns")
                 div(class="three columns box")
-                  div(class="color inactive-text")
+                  div(class="color modern-aqua")
                   p(class="box-p")
-                    |inactive text
+                    |modern aqua
                     br
-                    |#9a938d
+                    |#2fb5b7
+
+                div(class="three columns box")
+                  div(class="color teal")
+                  p(class="box-p")
+                    |teal
+                    br
+                    |#0098aa 
+
+                div(class="three columns box")
+                  div(class="color vertical-line-teal")
+                  p(class="box-p")
+                    |vertical line
+                    br
+                    |#8cd6d7
+
+                div(class="three columns box")
+                  div(class="color label-background-teal")
+                  p(class="box-p")
+                    |label background teal
+                    br
+                    |#eaf7f8
       
 
 
