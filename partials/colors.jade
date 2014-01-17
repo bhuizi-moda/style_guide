@@ -1,3 +1,5 @@
+
+
 doctype
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -40,141 +42,164 @@ html
               i(class="icon-left-open-big")
         div(class="ten columns pull_right")
           h2(class="nav-header-title")
-            |grid
+            |colors
 
-    div(class="row")
-      h4(class="twelve columns")
-        |default grid
-      hr
-    section(class="row example-grid")
-          div(class="twelve columns example-grid-child-styles")
-            p
-              |11 columns
 
-          div(class="row")
-            div(class="eleven columns example-grid-child-styles")
-              p
-                |11 columns
-            div(class="one columns example-grid-child-styles")
-              p
-                |1 column
-
-          div(class="row")
-            div(class="ten columns example-grid-child-styles")
-              p
-                |10 columns
-            div(class="two columns example-grid-child-styles")
-              p
-                |2 columns
-
-          div(class="row")
-            div(class="nine columns example-grid-child-styles")
-              p
-                |9 columns
-            div(class="three columns example-grid-child-styles")
-              p
-                |3 columns
-
-          div(class="row")
-            div(class="eight columns example-grid-child-styles")
-              p
-                |8 columns
-            div(class="four columns example-grid-child-styles")
-              p
-                |4 columns
-
-          div(class="row")
-            div(class="seven columns example-grid-child-styles")
-              p
-                |7 columns
-            div(class="five columns example-grid-child-styles")
-              p
-                |5 columns
-
-          div(class="row")
-            div(class="six columns example-grid-child-styles")
-              p
-                |6 columns
-            div(class="six columns example-grid-child-styles")
-              p
-                |6 columns
-
-        div(class="row")
-          h4(class="twelve columns")
-            |offset grid
+    section(class="row")
+      section(class="two columns")
+        nav(gumby-fixed="top")
+          h4
+            a(href="#colorsandfonts", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='colors']")
+              |colors |fonts
           hr
-        section(class="row example-grid")
-          div(class="twelve columns example-grid-child-styles")
-            p
-              |12 columns
+          ul
+            li
+              |grid
+            li
+              |two
+            li
+              |three
+            li
+              |four
+            li
+              |five
+            li
+              |six
+          h4
+            a(href="#layout", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='layout']")
+              |layout
+          hr
+          ul
+            li
+              |grid
+            li
+              |two
+            li
+              |three
+            li
+              |four
+            li
+              |five
+            li
+              |six
 
-          div(class="row")
-            div(class="ten columns example-grid-child-styles")
-              p
-                |10 columns
-            div(class="push_one one columns example-grid-child-styles")
-              p
-                |1 column
+          h4
+            a(href="#comp", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='comp']")
+              |components
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |modal
+            li
+              |five
+            li
+              |six
 
-          div(class="row")
-            div(class="six columns example-grid-child-styles")
-              p
-                |6 columns
-            div(class="push_two four columns example-grid-child-styles")
-              p
-                |4 columns
+          h4
+            a(href="#ui", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='ui']")
+              |user interface
+          hr
+          ul
+            li
+              |buttons
+            li
+              |forms
+            li
+              |icons
+            li
+              |test
+            li
+              |tabs
+            li
+              |tables
 
-          div(class="row")
-            div(class="three columns example-grid-child-styles")
-              p
-                |3 columns
-            div(class="push_two seven columns example-grid-child-styles")
-              p
-                |7 columns
+          h4
+            a(href="#dev", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='dev']")
+              |development
+          hr
+          ul
+            li
+              |one
+            li
+              |two
+            li
+              |three
+            li
+              |four
 
+      section(class="nine columns push_one")   
         div(class="row")
           h4
-            |fancy tiles
+            |colors
           hr
-          section(class="row example-grid")
-            ul(class="example-grid-fancytiles")
-              li(class="example-grid-child-styles")
-                |one
-              li(class="example-grid-child-styles")
-                |two
-              li(class="example-grid-child-styles")
-                |three
-              li(class="example-grid-child-styles")
-                |four
+        section(class="row")
+          div(class="row")
+            div(class="twelve columns")
+              div(class="three columns box")
+                div(class="color modern-plum")
+                p(class="box-p")
+                  |modren plum
+                  br
+                  |#a50069
 
-            ul(class="example-grid-fancytiles")
-              li(class="example-grid-child-styles")
-                |one
-              li(class="example-grid-child-styles")
-                |two
-              li(class="example-grid-child-styles")
-                |three
-              li(class="example-grid-child-styles")
-                |four
+              div(class="three columns box")
+                div(class="color modern-plum-light")
+                p(class="box-p")
+                  |modern plum lght
+                  br
+                  |#c25f92 
 
-            ul(class="example-grid-fancytiles")
-              li(class="example-grid-child-styles")
-                |one
-              li(class="example-grid-child-styles")
-                |two
-              li(class="example-grid-child-styles")
-                |three
-              li(class="example-grid-child-styles")
-                |four
-            ul(class="example-grid-fancytiles")
-              li(class="example-grid-child-styles")
-                |one
-              li(class="example-grid-child-styles")
-                |two
-              li(class="example-grid-child-styles")
-                |three
-              li(class="example-grid-child-styles")
-                |four
+              div(class="three columns box")
+                div(class="color primary-button")
+                p(class="box-p")
+                  |primary button
+                  br
+                  |#650141;
+
+              div(class="three columns box")
+                div(class="color copyright-text")
+                p(class="box-p")
+                  |copyright text
+                  br
+                  |#cb74a0
+
+          div(class="row")
+            div(class="twelve columns")
+              div(class="three columns box")
+                div(class="color inactive-button")
+                p(class="box-p")
+                  |inactive button
+                  br
+                  |#e1abc3
+
+              div(class="three columns box")
+                div(class="color secondary-button")
+                p(class="box-p")
+                  |secondary button
+                  br
+                  |#f2d9e9 
+
+              div(class="three columns box")
+                div(class="color primary-button")
+                p(class="box-p")
+                  |primary button
+                  br
+                  |#650141;
+
+              div(class="three columns box")
+                div(class="color copyright-text")
+                p(class="box-p")
+                  |copyright text
+                  br
+                  |#cb74a0
+
+
 
 
       
@@ -231,5 +256,3 @@ html
       script(src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
       script.
         window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
-
-

@@ -1,6 +1,9 @@
 // Your custom SCSS should be written here...
+@import 'moda_brand_colors';
+
 $primary_gray: #4a4d50;
 $standard_white: #fff;
+
 
 .disabled {
   -webkit-filter: opacity(0.8);
@@ -29,6 +32,29 @@ $standard_white: #fff;
 	margin-bottom: 1em;
 	.box-p {
 		padding-left: 0.6em;
+	}
+}
+
+.color {
+	width: 100%;
+	height: 150px;
+	&.modern-plum {
+		background: $modern_plum;
+	}
+	&.modern-plum-light {
+		background: $modern_plum_light;
+	}
+	&.primary-button {
+		background: $primary_button;
+	}
+	&.copyright-text {
+		background: $copyright_text;
+	}
+	&.inactive-button {
+		background: $inactive_button;
+	}
+	&.secondary-button {
+		background: $secondary_button;
 	}
 }
 

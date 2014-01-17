@@ -1,0 +1,265 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--
+    Use the .htaccess and remove these lines to avoid edge case issues.
+          More info: h5bp.com/b/378 
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Gumby - A Flexible, Responsive CSS Framework - Powered by SASS</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="humans.txt">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Facebook Metadata /-->
+    <meta property="fb:page_id" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <meta property="og:title" content="">
+    <!-- Google+ Metadata /-->
+    <meta itemprop="name" content="">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--
+    We highly recommend you use SASS and write your custom styles in sass/_custom.scss.
+        However, there is a blank style.css in the css directory should you prefer 
+    -->
+    <link rel="stylesheet" href="../css/gumby.css">
+    <!-- <link rel="stylesheet" href="css/style.css">-->
+    <script src="../js/libs/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="row">
+        <div class="two columns">
+          <h2><a href="/"><i class="icon-left-open-big"></i></a></h2>
+        </div>
+        <div class="ten columns pull_right">
+          <h2 class="nav-header-title">forms &amp; inputs</h2>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <h4 class="twelve columns">forms &amp; inputs</h4>
+      <hr>
+    </div>
+    <section class="row">
+      <div class="twelve columns">
+        <ul class="row">
+          <li class="field">
+            <input type="text" placeholder="text input" class="input">
+          </li>
+          <li class="field">
+            <input type="email" placeholder="email input" class="input">
+          </li>
+          <li class="field">
+            <input type="password" placeholder="password input" class="input">
+          </li>
+          <li class="field">
+            <textarea placeholder="textarea" class="input textarea"></textarea>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="row">
+      <h4 class="twelve columns">fieldset</h4>
+      <hr>
+    </div>
+    <section class="row">
+      <div class="twelve columns">
+        <form>
+          <fieldset>
+            <legend>FieldSet with legend</legend>
+            <ul>
+              <li class="field">
+                <label for="text1" class="inline"></label>
+                <input id="text1" placeholder="wide input" class="wide text input">
+              </li>
+              <li class="field">
+                <label class="inline"></label>
+                <input id="text2" type="password" placeholder="wide input" class="wide password input">
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <div class="row">
+      <h4 class="twelve columns">sizes</h4>
+      <hr>
+    </div>
+    <section class="row">
+      <div class="twelve columns">
+        <ul class="row">
+          <li class="field">
+            <input type="text" placeholder="xxwide input" class="input xxwide">
+          </li>
+          <li class="field">
+            <input type="text" placeholder="xwide input" class="input xwide">
+          </li>
+          <li class="field">
+            <input type="text" placeholder="xnarrow input" class="input xnarrow">
+          </li>
+          <li class="field">
+            <input placeholder="textarea" class="input wide">
+          </li>
+          <li class="field">
+            <input placeholder="textarea" class="input narrow">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="row">
+      <h4 class="twelve columns">validation</h4>
+      <hr>
+    </div>
+    <section class="row">
+      <div class="twelve columns">
+        <ul class="row">
+          <li class="field success">
+            <input type="text" placeholder="success validation" class="input">
+          </li>
+          <li class="field warning">
+            <input type="text" placeholder="warning validation" class="input">
+          </li>
+          <li class="field danger">
+            <input type="text" placeholder="error validation" class="input">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="row">
+      <h4 class="twelve columns">cojoined inputs</h4>
+      <hr>
+    </div>
+    <section class="row">
+      <div class="twelve columns">
+        <ul class="row">
+          <li class="field prepend"><span class="adjoined">@</span>
+            <input type="text" placeholder="text input" class="input xxwide">
+          </li>
+          <li class="field append">
+            <input type="email" placeholder="email input" class="input xwide"><span class="adjoined">@</span>
+          </li>
+          <li class="field append">
+            <input type="email" placeholder="email input" class="input wide">
+            <div class="medium primary btn"><a href="#">go</a></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="row">
+      <h4 class="twelve columns">fancy select &amp; radio buttons</h4>
+      <hr>
+      <section class="row">
+        <div class="twelve columns">
+          <ul class="four columns">
+            <li class="field">
+              <div class="picker">
+                <select>
+                  <option value="#">favorite doctor...</option>
+                  <option>
+                     
+                    Colin Baker
+                  </option>
+                  <option>
+                    <Sylvester>McCoy</Sylvester>
+                  </option>
+                  <option>Paul McGann</option>
+                  <option>Christopher Eccleston</option>
+                  <option>David Tennant</option>
+                  <option>Matt Smith</option>
+                </select>
+              </div>
+            </li>
+          </ul>
+          <ul class="four columns">
+            <li class="field">
+              <label for="radio1" class="radio checked">
+                <input id="radio1" name="radio" value="1" type="radio" checked="checked"><span></span>Radio Button 1
+              </label>
+            </li>
+            <li class="field">
+              <label for="radio2" class="radio">
+                <input id="radio2" name="radio" value="2" type="radio"><span></span>Radio Button 2
+              </label>
+            </li>
+          </ul>
+          <ul class="four columns">
+            <li class="field">
+              <label for="check1" class="checkbox checked">
+                <input name="checkbox[]" id="check1" value="1" type="checkbox" checked="checked"><span></span>checkbox 1
+              </label>
+            </li>
+            <li class="field">
+              <label for="check2" class="checkbox">
+                <input name="checkbox[]" id="check2" value="2" type="checkbox"><span></span>checkbox 2
+              </label>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.10.2.min.js"><\/script>')</script></script>
+    <!--
+    Include gumby.js followed by UI modules followed by gumby.init.js
+    Or concatenate and minify into a single file 
+    -->
+    <script gumby-touch="/js/libs" src="/js/libs/gumby.js"></script>
+    <script src="../js/libs/ui/gumby.retina.js"></script>
+    <script src="../js/libs/ui/gumby.fixed.js"></script>
+    <script src="../js/libs/ui/gumby.skiplink.js"></script>
+    <script src="../js/libs/ui/gumby.toggleswitch.js"></script>
+    <script src="../js/libs/ui/gumby.checkbox.js"></script>
+    <script src="../js/libs/ui/gumby.radiobtn.js"></script>
+    <script src="../js/libs/ui/gumby.tabs.js"></script>
+    <script src="../js/libs/ui/gumby.navbar.js"></script>
+    <script src="../js/libs/ui/jquery.validation.js"></script>
+    <script src="../js/libs/gumby.init.js"></script>
+    <!--
+    Google's recommended deferred loading of JS
+    gumby.min.js contains gumby.js, all UI modules and gumby.init.js
+    Note: If you opt to use this method of defered loading,
+    ensure that any javascript essential to the initial
+    display of the page is included separately in a normal
+    script tag.
+    <script type="text/javascript">
+    function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "js/libs/gumby.min.js";
+    document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+    -->
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Change UA-XXXXX-X to be your site's ID-->
+    <!--
+    script.
+      window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+      Modernizr.load({
+        load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+      });
+      
+    -->
+    <!--
+    Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+        chromium.org/developers/how-tos/chrome-frame-getting-started 
+    -->
+    <!--if lt IE 7 
+    script(src='//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js')
+    script.
+      window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})
+    -->
+  </body>
+</html>

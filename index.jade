@@ -69,12 +69,12 @@ html
       section(class="two columns")
         nav(gumby-fixed="top")
           h4
-            a(href="#layout", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='layout']")
-              |layout
+            a(href="#colorsandfonts", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='colors']")
+              |colors |fonts
           hr
           ul
             li
-              |one
+              |grid
             li
               |two
             li
@@ -83,6 +83,25 @@ html
               |four
             li
               |five
+            li
+              |six
+          h4
+            a(href="#layout", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='layout']")
+              |layout
+          hr
+          ul
+            li
+              |grid
+            li
+              |two
+            li
+              |three
+            li
+              |four
+            li
+              |five
+            li
+              |six
 
           h4
             a(href="#comp", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='comp']")
@@ -94,9 +113,13 @@ html
             li
               |two
             li
-              |tabs
+              |three
             li
-              |tables
+              |modal
+            li
+              |five
+            li
+              |six
 
           h4
             a(href="#ui", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='ui']")
@@ -106,11 +129,15 @@ html
             li
               |buttons
             li
+              |forms
+            li
               |icons
             li
-              |three
+              |test
             li
-              |four
+              |tabs
+            li
+              |tables
 
           h4
             a(href="#dev", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='dev']")
@@ -129,6 +156,27 @@ html
 
 
       section(class="nine columns push_one")
+        //Colors and fonts
+        h4(data-target="layout")
+          |colors | fonts
+        hr
+        div(class="row")
+          div(class="twelve columns")
+            a(class="four columns box", href="partials/colors.html")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | colors
+
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | fonts
+
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | test
+        //LAYOUT
         h4(data-target="layout")
           |layout
         hr
@@ -138,57 +186,108 @@ html
               img(src="http://placehold.it/350x200")
               p(class="box-p")
                 | grid
-            a(class="four columns box disabled", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                | test
-            a(class="four columns box disabled", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                | test
-        div(class="row")
-          div(class="twelve columns")
-            a(class="four columns box disabled", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                | test
-            a(class="four columns box disabled", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                | test
+
             a(class="four columns box disabled", href="#")
               img(src="http://placehold.it/350x200")
               p(class="box-p")
                 | test
 
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | test
+
+        div(class="row")
+          div(class="twelve columns")
+
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | test
+
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | test
+
+            a(class="four columns box disabled", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                | test
+
+        // COMPONENTS
         h4(data-target="comp")
           |components
         hr
-        div(class="row")
-          div(class="twelve columns")
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
 
         div(class="row")
           div(class="twelve columns")
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+        div(class="row")
+          div(class="twelve columns")
+
             a(class="four columns box", href="/partials/modal.html")
               img(src="http://placehold.it/350x200")
               p(class="box-p")
                 |modal
 
-            a(class="four columns box", href="/partials/tabs.html")
+            a(class="four columns box", href="/partials/#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+        // USER INTERFACE
+        h4(data-target="ui")
+          |user interface
+        hr
+
+        div(class="row")
+          div(class="twelve columns")
+
+            a(class="four columns box", href="/partials/buttons.html")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |buttons
+
+            a(class="four columns box", href="/partials/forms.html")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |forms
+
+            a(class="four columns box", href="/partials/icons.html")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |icons
+
+        div(class="row")
+          div(class="twelve columns")
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="partials/tabs.html")
               img(src="http://placehold.it/350x200")
               p(class="box-p")
                 |tabs
@@ -198,65 +297,32 @@ html
               p(class="box-p")
                 |tables
 
-        h4(data-target="ui")
-          |user interface
-        hr
-        div(class="row")
-          div(class="twelve columns")
-            a(class="four columns box", href="/partials/buttons.html")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |buttons
-
-            a(class="four columns box", href="/partials/icons.html")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |icons
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-        div(class="row")
-          div(class="twelve columns")
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
+        // DEV
         h4(data-target="dev")
           |development
         hr
-        div(class="row")
-          div(class="twelve columns")
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
-
-            a(class="four columns box", href="#")
-              img(src="http://placehold.it/350x200")
-              p(class="box-p")
-                |test
 
         div(class="row")
           div(class="twelve columns")
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+            a(class="four columns box", href="#")
+              img(src="http://placehold.it/350x200")
+              p(class="box-p")
+                |test
+
+        div(class="row")
+          div(class="twelve columns")
+
             a(class="four columns box", href="#")
               img(src="http://placehold.it/350x200")
               p(class="box-p")
