@@ -49,39 +49,55 @@ html
       section(class="two columns")
         nav(gumby-fixed="top")
           h4
-            a(href="#colorsandfonts", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='colors']")
-              |colors |fonts
+            a(href="#plums", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='plums']")
+              |plums
           hr
           ul
             li
-              |grid
+              |modern plum
             li
-              |two
+              |modern plum light
             li
-              |three
+              |primary button
             li
-              |four
+              |copyright button
             li
-              |five
+              |inactive button
             li
-              |six
+              |secondary button
           h4
-            a(href="#layout", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='layout']")
-              |layout
+            a(href="#browns", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='browns']")
+              |browns
           hr
           ul
             li
-              |grid
+              |warm brown
             li
-              |two
+              |menu background
             li
-              |three
+              |back button
             li
-              |four
+              |network text
             li
-              |five
+              |inactive text
             li
-              |six
+              |watermark text
+            li
+              |border color
+            li
+              |title bar
+            li
+              |link row 01
+            li
+              |link row 02
+            li
+              |inactive secondary
+            li
+              |page background
+            li
+              |back button
+
+
 
           h4
             a(href="#comp", class="skip" , gumby-update="", gumby-duration="600", gumby-goto="[data-target='comp']")
@@ -135,8 +151,8 @@ html
 
       section(class="nine columns push_one")   
         div(class="row")
-          h4
-            |colors
+          h4(data-target="plums")
+            |plums
           hr
         section(class="row")
           div(class="row")
@@ -156,14 +172,14 @@ html
                   |#c25f92 
 
               div(class="three columns box")
-                div(class="color primary-button")
+                div(class="color primary-button-plum")
                 p(class="box-p")
                   |primary button
                   br
                   |#650141;
 
               div(class="three columns box")
-                div(class="color copyright-text")
+                div(class="color copyright-text-plum")
                 p(class="box-p")
                   |copyright text
                   br
@@ -172,32 +188,164 @@ html
           div(class="row")
             div(class="twelve columns")
               div(class="three columns box")
-                div(class="color inactive-button")
+                div(class="color inactive-button-plum")
                 p(class="box-p")
                   |inactive button
                   br
                   |#e1abc3
 
               div(class="three columns box")
-                div(class="color secondary-button")
+                div(class="color secondary-button-plum")
                 p(class="box-p")
                   |secondary button
                   br
-                  |#f2d9e9 
+                  |#f2d9e9
 
-              div(class="three columns box")
-                div(class="color primary-button")
-                p(class="box-p")
-                  |primary button
-                  br
-                  |#650141;
+          //BROWNS        
+          div(class="row")
+            h4(data-target="browns")
+              |browns
+            hr
+          section(class="row")
+            div(class="row")
+              div(class="twelve columns")
+                div(class="three columns box")
+                  div(class="color warm-brown")
+                  p(class="box-p")
+                    |warm brown
+                    br
+                    |#493b31
 
+                div(class="three columns box")
+                  div(class="color menu-brown")
+                  p(class="box-p")
+                    |menu brown
+                    br
+                    |#5c4f46 
+
+                div(class="three columns box")
+                  div(class="color label-back-button-brown")
+                  p(class="box-p")
+                    |back button
+                    br
+                    |#716156
+
+                div(class="three columns box")
+                  div(class="color network-text-brown")
+                  p(class="box-p")
+                    |network text
+                    br
+                    |#80766f
+
+            div(class="row")
+              div(class="twelve columns")
+                div(class="three columns box")
+                  div(class="color inactive-text-brown")
+                  p(class="box-p")
+                    |inactive text
+                    br
+                    |#9a938d
+
+                div(class="three columns box")
+                  div(class="color watermark-text-brown")
+                  p(class="box-p")
+                    |watermark text
+                    br
+                    |#a49d98
+                div(class="three columns box")
+                  div(class="color border-color-brown")
+                  p(class="box-p")
+                    |border color
+                    br
+                    |#b8b0ab
+                div(class="three columns box")
+                  div(class="color title-bar-brown")
+                  p(class="box-p")
+                    |title bar
+                    br
+                    |#bab2ad
+
+            div(class="row")
+              div(class="twelve columns")
+                div(class="three columns box")
+                  div(class="color link-row-01-brown")
+                  p(class="box-p")
+                    |link row 01
+                    br
+                    |#b6b1ad
+
+                div(class="three columns box")
+                  div(class="color link-row-02-brown")
+                  p(class="box-p")
+                    |link row 02
+                    br
+                    |#dbd8d6
+                div(class="three columns box")
+                  div(class="color inactive-secondary-brown")
+                  p(class="box-p")
+                    |inactive secondary btn
+                    br
+                    |#d0cbc8
+                div(class="three columns box")
+                  div(class="color page-background-brown")
+                  p(class="box-p")
+                    |page background
+                    br
+                    |#ecebea 
+
+          div(class="row")
+            div(class="twelve columns")
               div(class="three columns box")
-                div(class="color copyright-text")
+                div(class="color back-button-brown")
                 p(class="box-p")
-                  |copyright text
+                  |back button
                   br
-                  |#cb74a0
+                  |#b6b1ad
+
+          div(class="row")
+            h4(data-target="yellows")
+              |yellows
+            hr
+          section(class="row")
+            div(class="row")
+              div(class="twelve columns")
+                div(class="three columns box")
+                  div(class="color warm-brown")
+                  p(class="box-p")
+                    |warm brown
+                    br
+                    |#493b31
+
+                div(class="three columns box")
+                  div(class="color menu-brown")
+                  p(class="box-p")
+                    |menu brown
+                    br
+                    |#5c4f46 
+
+                div(class="three columns box")
+                  div(class="color label-back-button")
+                  p(class="box-p")
+                    |back button
+                    br
+                    |#716156
+
+                div(class="three columns box")
+                  div(class="color network-text")
+                  p(class="box-p")
+                    |network text
+                    br
+                    |#80766f
+
+            div(class="row")
+              div(class="twelve columns")
+                div(class="three columns box")
+                  div(class="color inactive-text")
+                  p(class="box-p")
+                    |inactive text
+                    br
+                    |#9a938d
+      
 
 
 

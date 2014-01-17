@@ -44,17 +44,56 @@ $standard_white: #fff;
 	&.modern-plum-light {
 		background: $modern_plum_light;
 	}
-	&.primary-button {
-		background: $primary_button;
+	&.primary-button_plum {
+		background: $primary_button_plum;
 	}
-	&.copyright-text {
-		background: $copyright_text;
+	&.copyright-text_plum {
+		background: $copyright_text_plum;
 	}
-	&.inactive-button {
-		background: $inactive_button;
+	&.inactive-button_plum {
+		background: $inactive_button_plum;
 	}
-	&.secondary-button {
-		background: $secondary_button;
+	&.secondary-button_plum {
+		background: $secondary_button_plum;
+	}
+	&.warm-brown {
+		background: $warm_brown
+	}
+	&.menu-brown {
+		background: $menu_brown;
+	}
+	&.label-back-button {
+		background: $label_back_button_brown;
+	}
+	&.network-text {
+		background: $network_text_brown;
+	}
+	&.inactive-text {
+		background: $inactive_text_brown;
+	}
+	&.watermark-text {
+		background: $watermark_text_brown;
+	}
+	&.border-color {
+		background: $border_color_brown;
+	}
+	&.title-bar {
+		background: $title_bar_brown;
+	}
+	&.link-row-01 {
+		background: $link_row_01_brown;
+	}
+	&.link-row-02 {
+		background: $link_row_02_brown;
+	}
+	&.inactive-secondary {
+		background: $inactive_secondary_brown;
+	}
+	&.page-background {
+		background: $page_background_brown;
+	}
+	&.back-button {
+		background: $back_button_brown;
 	}
 }
 

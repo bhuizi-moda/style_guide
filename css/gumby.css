@@ -1696,10 +1696,23 @@ table.rounded thead th, table.rounded thead td, table.rounded caption + tbody tr
 .color { width: 100%; height: 150px; }
 .color.modern-plum { background: #a50069; }
 .color.modern-plum-light { background: #c25f92; }
-.color.primary-button { background: #650141; }
-.color.copyright-text { background: #cb74a0; }
-.color.inactive-button { background: #e1abc3; }
-.color.secondary-button { background: #f2d9e9; }
+.color.primary-button_plum { background: #650141; }
+.color.copyright-text_plum { background: #cb74a0; }
+.color.inactive-button_plum { background: #e1abc3; }
+.color.secondary-button_plum { background: #f2d9e9; }
+.color.warm-brown { background: #493b31; }
+.color.menu-brown { background: #5c4f46; }
+.color.label-back-button { background: #716156; }
+.color.network-text { background: #80766f; }
+.color.inactive-text { background: #9a938d; }
+.color.watermark-text { background: #a49d98; }
+.color.border-color { background: #b8b0ab; }
+.color.title-bar { background: #bab2ad; }
+.color.link-row-01 { background: #b6b1ad; }
+.color.link-row-02 { background: #dbd8d6; }
+.color.inactive-secondary { background: #d0cbc8; }
+.color.page-background { background: #ecebea; }
+.color.back-button { background: #f4f4f4; }
 
 .example-grid .example-grid-child-styles { background: #4a4d50; border-radius: 3px; color: white; margin-bottom: 0.3em; text-align: center; }
 .example-grid .example-grid-fancytiles { display: inline-block; float: left; padding-left: 0.87719%; padding-right: 0.87719%; width: 100%; }
